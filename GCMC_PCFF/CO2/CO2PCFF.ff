@@ -1,0 +1,43 @@
+atomtypes
+2
+
+begin atom-atomtype
+1 C
+2 O
+3 O
+end atom-atomtype
+
+vdwtype Mie
+dihedraltype none
+
+nonbonded
+C
+Sigma 3.407
+Epsilon 32.21
+Repulsive_Exponent 9
+Dispersive_Exponent 6
+atom_type_charge 0.24
+
+nonbonded
+O
+Sigma 3.088
+Epsilon 30.19
+Repulsive_Exponent 9
+Dispersive_Exponent 6
+atom_type_charge -0.12
+
+bonds
+C O
+Length 1.160
+Constant fixed
+
+charge
+1 
+
+charge
+2 
+
+charge
+3 
+
+end

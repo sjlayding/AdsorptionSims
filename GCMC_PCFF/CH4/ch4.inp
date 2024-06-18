@@ -16,6 +16,15 @@ gcmc
 mie cut_tail 15.0
 !----------------
 
+# Charge_Style
+coul ewald 50.0 1e-5
+!----------------
+
+# Mixing_Rule
+custom
+C_s1 H_s1 11.74 3.205 9 6
+!----------------
+
 # Seed_Info
 573529257 421754106
 !-------------------
@@ -43,9 +52,8 @@ cubic
 !------------------
 
 # Chemical_Potential_Info
--38.0
+-30.0
 !------------------------
-
 
 # Move_Probability_Info
 
@@ -68,7 +76,7 @@ cbmc
 !----------------------
 
 # Start_Type
-make_config 300
+make_config 500
 !------------------
 
 # Run_Type
@@ -83,7 +91,7 @@ equilibration 100
 units        steps
 prop_freq    1000
 coord_freq   10000
-run          1000000
+run          100000
 !----------------------------
 
 # Property_Info 1 
@@ -95,6 +103,7 @@ mass_density
 !----------------
 
 # Fragment_Files
+species1/frag1/frag1.dat  1
 !---------------------------------------------------------one line per fragment
 
 # CBMC_Info

@@ -13,6 +13,15 @@ mie minimum_image
 # Rcutoff_Low
 1.0
 
+# Mixing_Rule
+custom
+C_s1 H_s1 11.74 3.205 9 6
+!----------------
+
+
+# Charge_Style
+coul minimum_image
+
 # Molecule_Files
 ../../CH4PCFF.mcf 50
 

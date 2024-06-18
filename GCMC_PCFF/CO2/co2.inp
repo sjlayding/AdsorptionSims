@@ -13,7 +13,16 @@ gcmc
 !----------------
 
 # VDW_Style
-mie cut_tail 15.0
+mie cut_tail 14.0
+!----------------
+
+# Charge_Style
+coul ewald 50.0 1e-5
+!----------------
+
+# Mixing_Rule
+custom
+C_s1 O_s1 30.11 3.267 9 6
 !----------------
 
 # Seed_Info
@@ -43,7 +52,7 @@ cubic
 !------------------
 
 # Chemical_Potential_Info
--38.0
+-33.0
 !------------------------
 
 
@@ -83,7 +92,7 @@ equilibration 100
 units        steps
 prop_freq    1000
 coord_freq   10000
-run          1000000
+run          100000
 !----------------------------
 
 # Property_Info 1 
@@ -95,6 +104,7 @@ mass_density
 !----------------
 
 # Fragment_Files
+species1/frag1/frag1.dat  1
 !---------------------------------------------------------one line per fragment
 
 # CBMC_Info

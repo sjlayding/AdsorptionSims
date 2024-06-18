@@ -21,8 +21,8 @@ Run info
 version: Cassandra Version 1.3.0
 inputfile: species1_mcf_gen.inp
 name of run: species1_mcf_gen
-date (mm/dd/yyyy): 06/10/2024
-time: 16:30:55
+date (mm/dd/yyyy): 06/18/2024
+time: 00:58:01
 machine: DESKTOP-T7GBTK2
 ********************************************************************************
 
@@ -52,6 +52,14 @@ mie minimum_image
                                                                                 
 # Rcutoff_Low                                                                   
 1.0                                                                             
+                                                                                
+# Mixing_Rule                                                                   
+custom                                                                          
+C_s1 O_s1 30.11 3.267 9 6                                                       
+                                                                                
+                                                                                
+# Charge_Style                                                                  
+coul minimum_image                                                              
                                                                                 
 # Molecule_Files                                                                
 ../../CO2PCFF.mcf 50                                                            
@@ -85,12 +93,12 @@ Pair style
 VDW style used is:   MIE            in box:  1
  VDW sum style is:  minimum_image  in box:  1
  Minimum image convention used for VDW
-Section "# Charge_Style" is missing from the input file
- By default, charge style for box 1 is NONE
+Charge style in box 1 is coul
+ Charge sum style is   minimum_image  in box:  1
+ Minimum image convention used for charge
 Section "# Pair_Energy" is missing from the input file
  By default, pair interaction energy arrays will not be stored
-Section "# Mixing_Rule" is missing from the input file
- By default, using Lorentz-Berthelot
+Custom mixing rule specified
 ********************************************************************************
 
 Molecule info
@@ -100,10 +108,10 @@ Molecule info
  Molecular connectivity file: ../../CO2PCFF.mcf                                                                                                       
    3 atom(s) specified.
    2 bond(s) specified.
-   0 angle(s) specified.
+   1 angle(s) specified.
    0 dihedral(s) specified.
    0 improper(s) specified.
-   0 fragment(s) specified.
+   1 fragment(s) specified.
    0 fragment bond(s) specified.
 
  Species  Max molecules
@@ -122,6 +130,12 @@ Molecule info
   VDW 1-3 scaling factor       0.000
   VDW 1-4 scaling factor       0.000
   VDW 1-N scaling factor       1.000
+  Coulomb 1-2 scaling factor   0.000
+  Coulomb 1-3 scaling factor   0.000
+  Coulomb 1-4 scaling factor   0.000
+  Coulomb 1-N scaling factor   1.000
+ Total number of atoms in fragment     1  is   3
+ Fragment info read
  -------------------------------------------------------------------------------
 ********************************************************************************
 

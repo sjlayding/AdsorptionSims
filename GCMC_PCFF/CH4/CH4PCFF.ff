@@ -16,9 +16,9 @@ nonbonded
 C
 Sigma 3.503
 Epsilon 27.17
-Repulsive_Exponent 9
+Repulsive_Exponent 9 
 Dispersive_Exponent 6
-atom_type_charge -0.212
+atom_type_charge -0.212 
 
 nonbonded
 H
@@ -32,6 +32,11 @@ bonds
 C H
 Length 1.101
 Constant fixed
+
+angles
+H C H
+Angle 107.66 
+Constant 19948.13
 
 charge
 1 

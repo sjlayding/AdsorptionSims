@@ -1,0 +1,68 @@
+!*******************************************************************************
+!Molecular connectivity file for CH4PCFF.pdb
+!*******************************************************************************
+!Atom Format
+!index type element mass charge vdw_type parameters
+!vdw_type="LJ", parms=epsilon sigma
+!vdw_type="Mie", parms=epsilon sigma repulsion_exponent dispersion_exponent
+
+# Atom_Info
+5
+1    C_s2    C    12.011    -0.212    Mie    27.170    3.503    9.000    6.000
+2    H_s2    H    1.008    0.053    Mie    10.060    2.616    9.000    6.000
+3    H_s2    H    1.008    0.053    Mie    10.060    2.616    9.000    6.000
+4    H_s2    H    1.008    0.053    Mie    10.060    2.616    9.000    6.000
+5    H_s2    H    1.008    0.053    Mie    10.060    2.616    9.000    6.000
+
+!Bond Format
+!index i j type parameters
+!type="fixed", parms=bondLength
+
+# Bond_Info
+4
+1     1     2     fixed     1.101
+2     1     3     fixed     1.101
+3     1     4     fixed     1.101
+4     1     5     fixed     1.101
+
+!Angle Format
+!index i j k type parameters
+!type="fixed", parms=equilibrium_angle
+!type="harmonic", parms=force_constant equilibrium_angle
+
+# Angle_Info
+6
+1     2     1     3     harmonic   19948.1    107.66
+2     2     1     4     harmonic   19948.1    107.66
+3     2     1     5     harmonic   19948.1    107.66
+4     3     1     4     harmonic   19948.1    107.66
+5     3     1     5     harmonic   19948.1    107.66
+6     4     1     5     harmonic   19948.1    107.66
+
+# Dihedral_Info
+0
+
+# Improper_Info
+0
+
+!Intra Scaling
+!vdw_scaling    1-2 1-3 1-4 1-N
+!charge_scaling 1-2 1-3 1-4 1-N
+
+# Intra_Scaling
+0. 0. 0.0000 1.
+0. 0. 0.0000 1.
+
+!Fragment Format
+!index number_of_atoms_in_fragment branch_point other_atoms
+
+# Fragment_Info
+1
+1    5    1    2    3    4    5
+
+
+# Fragment_Connectivity
+0
+
+
+END

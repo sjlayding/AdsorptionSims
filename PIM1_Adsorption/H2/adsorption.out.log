@@ -1,0 +1,1250 @@
+********************************************************************************
+                ______                                __                        
+               / ____/___ _______________ _____  ____/ /________ _              
+              / /   / __ `/ ___/ ___/ __ `/ __ \/ __  / ___/ __ `/              
+             / /___/ /_/ (__  |__  ) /_/ / / / / /_/ / /  / /_/ /               
+             \____/\__,_/____/____/\__,_/_/ /_/\__,_/_/   \__,_/                
+                                                                                
+********************************************************************************
+**********************************Log File**************************************
+********************************************************************************
+
+For any published work that uses Cassandra, cite the following reference:
+    Shah JK, Marin‐Rimoldi E, Mullen RG, Keene BP, Khan S,
+    Paluch AS, Rai N, Romanielo LL, Rosch TW, Yoo B, Maginn EJ.
+    Cassandra: An open source Monte Carlo package for molecular simulation.
+    Journal of Computational Chemistry. 2017, 38, 1727–1739.
+    http://dx.doi.org/10.1002/jcc.24807
+
+Run info
+********************************************************************************
+version: Cassandra Version 1.3.0
+inputfile: adsorption.inp
+name of run: adsorption.out
+date (mm/dd/yyyy): 07/05/2024
+time: 15:46:49
+machine: DESKTOP-T7GBTK2
+********************************************************************************
+
+Verbose log
+********************************************************************************
+Normal output to logfile
+********************************************************************************
+
+Simulation type
+********************************************************************************
+GCMC                
+********************************************************************************
+
+Copy input file
+********************************************************************************
+                                                                                
+# Run_Name                                                                      
+adsorption.out                                                                  
+                                                                                
+# Sim_Type                                                                      
+gcmc                                                                            
+                                                                                
+# Nbr_Species                                                                   
+2                                                                               
+                                                                                
+# VDW_Style                                                                     
+mie cut_tail 14.0                                                               
+                                                                                
+# Charge_Style                                                                  
+coul ewald 14.0 1e-6                                                            
+                                                                                
+# Mixing_Rule                                                                   
+custom                                                                          
+1_s1 2_s1 29.583 3.503 9.000 6.000                                              
+1_s1 3_s1 29.583 3.503 9.000 6.000                                              
+1_s1 4_s1 11.739 3.205 9.000 6.000                                              
+1_s1 5_s1 0.547 3.121 9.000 6.000                                               
+1_s1 6_s1 28.092 3.338 9.000 6.000                                              
+1_s1 7_s1 53.420 3.328 9.000 6.000                                              
+1_s1 8_s1 53.420 3.328 9.000 6.000                                              
+1_s1 H_s2 11.736 3.205 9.000 6.000                                              
+2_s1 3_s1 32.206 3.503 9.000 6.000                                              
+2_s1 4_s1 12.779 3.205 9.000 6.000                                              
+2_s1 5_s1 0.595 3.121 9.000 6.000                                               
+2_s1 6_s1 30.582 3.338 9.000 6.000                                              
+2_s1 7_s1 58.156 3.328 9.000 6.000                                              
+2_s1 8_s1 58.156 3.328 9.000 6.000                                              
+2_s1 H_s2 12.777 3.205 9.000 6.000                                              
+3_s1 4_s1 12.779 3.205 9.000 6.000                                              
+3_s1 5_s1 0.595 3.121 9.000 6.000                                               
+3_s1 6_s1 30.582 3.338 9.000 6.000                                              
+3_s1 7_s1 58.156 3.328 9.000 6.000                                              
+3_s1 8_s1 58.156 3.328 9.000 6.000                                              
+3_s1 H_s2 12.777 3.205 9.000 6.000                                              
+4_s1 5_s1 0.798 2.332 9.000 6.000                                               
+4_s1 6_s1 15.881 2.921 9.000 6.000                                              
+4_s1 7_s1 30.951 2.899 9.000 6.000                                              
+4_s1 8_s1 30.951 2.899 9.000 6.000                                              
+4_s1 H_s2 10.062 2.616 9.000 6.000                                              
+5_s1 6_s1 0.850 2.779 9.000 6.000                                               
+5_s1 7_s1 1.682 2.752 9.000 6.000                                               
+5_s1 8_s1 1.682 2.752 9.000 6.000                                               
+5_s1 H_s2 0.797 2.332 9.000 6.000                                               
+6_s1 7_s1 62.824 3.104 9.000 6.000                                              
+6_s1 8_s1 62.824 3.104 9.000 6.000                                              
+6_s1 H_s2 15.878 2.921 9.000 6.000                                              
+7_s1 8_s1 120.773 3.088 9.000 6.000                                             
+7_s1 H_s2 30.945 2.899 9.000 6.000                                              
+8_s1 H_s2 30.945 2.899 9.000 6.000                                              
+                                                                                
+# Seed_Info                                                                     
+675286575 427811732                                                             
+                                                                                
+# Rcutoff_Low                                                                   
+0.05                                                                            
+                                                                                
+# Pair_Energy                                                                   
+true                                                                            
+                                                                                
+# Molecule_Files                                                                
+polymer.mcf 1                                                                   
+H2PCFF.mcf 5000                                                                 
+                                                                                
+# Box_Info                                                                      
+1                                                                               
+orthogonal                                                                      
+41.8148 41.8148 41.8148                                                         
+                                                                                
+# Temperature_Info                                                              
+308.15                                                                          
+                                                                                
+# Chemical_Potential_Info                                                       
+none -25.913                                                                    
+                                                                                
+                                                                                
+# Move_Probability_Info                                                         
+                                                                                
+# Prob_Translation                                                              
+0.25                                                                            
+0.0  2.0                                                                        
+                                                                                
+# Prob_Rotation                                                                 
+0.25                                                                            
+0.0  180                                                                        
+                                                                                
+                                                                                
+# Prob_Insertion                                                                
+0.25                                                                            
+none cbmc                                                                       
+                                                                                
+# Prob_Deletion                                                                 
+0.25                                                                            
+                                                                                
+# Done_Probability_Info                                                         
+                                                                                
+# Start_Type                                                                    
+add_to_config 1 0 polymer.xyz 0 0                                               
+                                                                                
+# Run_Type                                                                      
+equilibration   100                                                             
+                                                                                
+# Simulation_Length_Info                                                        
+units        steps                                                              
+prop_freq    100                                                                
+coord_freq   10000                                                              
+run          100000                                                             
+                                                                                
+                                                                                
+# Property_Info 1                                                               
+energy_total                                                                    
+nmols                                                                           
+density                                                                         
+pressure                                                                        
+mass_density                                                                    
+                                                                                
+# Fragment_Files                                                                
+species2/frag1/frag1.dat  1                                                     
+                                                                                
+# CBMC_Info                                                                     
+kappa_ins 12                                                                    
+rcut_cbmc 6.5                                                                   
+                                                                                
+                                                                                
+END                                                                             
+********************************************************************************
+
+Number of species
+********************************************************************************
+2
+********************************************************************************
+
+Box info
+********************************************************************************
+Number of simulation boxes     1
+Box 1 is ORTHORHOMBIC        
+ X dimension :        41.8148     Angstrom
+ Y dimension :        41.8148     Angstrom
+ Z dimension :        41.8148     Angstrom
+ Cell basis vector lengths in A,     41.8148      41.8148      41.8148
+ Cosine of angles alpha, beta, gamma     0.0000       0.0000       0.0000
+ Distance between box faces    41.8148      41.8148      41.8148
+ Box volume, A^3         73112.2369
+********************************************************************************
+
+Pair style
+********************************************************************************
+VDW style used is:   MIE            in box:  1
+ VDW sum style is:  cut_tail       in box:  1
+ rcut =    14.000 Angstrom
+Charge style in box 1 is coul
+ Charge sum style is   ewald          in box:  1
+ Ewald real space cutoff is  14.000 Angstroms.
+ Ewald real space parameter is   0.265 inverse Angstroms
+ Ewald reciprocal cutoff is  1.9736 inverse Angstroms
+Pair interaction energy array storage enabled
+Custom mixing rule specified
+********************************************************************************
+
+Molecule info
+********************************************************************************
+ Reading molecular connectivity information
+ Species:            1
+ Molecular connectivity file: polymer.mcf                                                                                                             
+   5504 atom(s) specified.
+   0 bond(s) specified.
+   0 angle(s) specified.
+   0 dihedral(s) specified.
+   0 improper(s) specified.
+   0 fragment(s) specified.
+   0 fragment bond(s) specified.
+ Reading molecular connectivity information
+ Species:            2
+ Molecular connectivity file: H2PCFF.mcf                                                                                                              
+   2 atom(s) specified.
+   1 bond(s) specified.
+   0 angle(s) specified.
+   0 dihedral(s) specified.
+   0 improper(s) specified.
+   1 fragment(s) specified.
+   0 fragment bond(s) specified.
+
+ Species  Max molecules
+ -------  -------------
+      1              1
+      2           5000
+
+ Species     1
+ -------------------------------------------------------------------------------
+ Atom parameters read
+ Bond parameters read
+ Angle parameters read
+ Dihedral parameters read
+ Improper parameters read
+ Intra molecule scaling factors for species            1
+  VDW 1-2 scaling factor       0.000
+  VDW 1-3 scaling factor       0.000
+  VDW 1-4 scaling factor       0.000
+  VDW 1-N scaling factor       0.000
+  Coulomb 1-2 scaling factor   0.000
+  Coulomb 1-3 scaling factor   0.000
+  Coulomb 1-4 scaling factor   0.000
+  Coulomb 1-N scaling factor   0.000
+ -------------------------------------------------------------------------------
+
+ Species     2
+ -------------------------------------------------------------------------------
+ Atom parameters read
+ Bond parameters read
+ Angle parameters read
+ Dihedral parameters read
+ Improper parameters read
+ Intra molecule scaling factors for species            2
+  VDW 1-2 scaling factor       0.000
+  VDW 1-3 scaling factor       0.000
+  VDW 1-4 scaling factor       0.000
+  VDW 1-N scaling factor       1.000
+  Coulomb 1-2 scaling factor   0.000
+  Coulomb 1-3 scaling factor   0.000
+  Coulomb 1-4 scaling factor   0.000
+  Coulomb 1-N scaling factor   1.000
+ Total number of atoms in fragment     1  is   2
+ Fragment info read
+ Fragment file for fragment 1 is species2/frag1/frag1.dat
+ -------------------------------------------------------------------------------
+
+ Fragment coord info
+ -------------------------------------------------------------------------------
+ library_coords array successfully allocated
+ Finished loading fragment coordinates from
+ species2/frag1/frag1.dat
+ -------------------------------------------------------------------------------
+********************************************************************************
+
+Temperature
+********************************************************************************
+Temperature of box 1 is 308.150 K
+********************************************************************************
+
+Minimum distance cutoff
+********************************************************************************
+MC low cutoff distance is   0.050    Angstrom
+********************************************************************************
+
+Start type
+********************************************************************************
+Initial configuration for box 1 will add molecules to configuration read from file
+ Will read       1  molecules of species   1
+ Will read       0  molecules of species   2
+ Will read configuration from file polymer.xyz
+ Will insert       0  molecules of species   1
+ Will insert       0  molecules of species   2
+********************************************************************************
+
+Seed info
+********************************************************************************
+The starting seeds are:           675286575           427811732
+********************************************************************************
+
+Move probabilities
+********************************************************************************
+Probability for translation                0.250000
+ Maximum displacement width for species  1 in box  1  is      0.00000
+ Maximum displacement width for species  2 in box  1  is      2.00000
+Probability for rotation                   0.250000
+ The rotational width for the species    1 in box  1   is      0.0000 radians
+ The rotational width for the species    2 in box  1   is      3.1416 radians
+Probability for insertion                  0.250000
+ Species 1 will not be inserted
+ Species 2 will be inserted using CBMC
+ Number of insertable species is    1
+Probability for deletion                   0.250000
+Number of moves is :   4
+********************************************************************************
+
+Chemical potential
+********************************************************************************
+Species     1
+ Chemical potential not required.
+Species     2
+ Chemical potential (internal units):    -2591.300000000
+ de Broglie wavelength (Angstroms):          0.700443819
+********************************************************************************
+
+Simulation length info
+********************************************************************************
+Thermodynamic quantities will be computed every                  100 Steps     
+Coordinates will be written to file every                      10000 Steps     
+ movie header file is                  adsorption.out.H
+ movie_XYZ file is                     adsorption.out.xyz
+The simulation will be run for                              100000 Steps     
+Instantaneous values will be written every                       100 Steps     
+********************************************************************************
+
+Property info
+********************************************************************************
+Total number of property files to be written is     1   for box 1
+ Maximum number of properties per file is    7
+ Writing the name of the property files and the corresponding property output
+ Property file    1   is  adsorption.out.prp
+ Properties output in these files are
+ Energy_Total
+ Nmols_1
+ Nmols_2
+ Density_1
+ Density_2
+ Pressure
+ Mass_Density
+********************************************************************************
+
+CBMC info
+********************************************************************************
+Kappa for first fragment insertion          12
+ Cutoff for CBMC for box 1 is         6.50
+********************************************************************************
+
+Run type
+********************************************************************************
+ The input run type is equilibration
+ Update frequency is          100
+********************************************************************************
+
+********************************************************************************
+************************ Begin Cassandra simulation ****************************
+********************************************************************************
+
+Initial configuration
+********************************************************************************
+ Reading configuration for box           1
+ Reading            1  molecules of species            1
+ Reading            0  molecules of species            2
+ Configurations read successfully
+********************************************************************************
+
+Charge neutrality check
+********************************************************************************
+ Species 1 has charge:                 -0.00000000
+ Species 2 has charge:                  0.00000000
+
+ Box     1 has charge:                 -0.00000000
+********************************************************************************
+
+Compute total energy
+********************************************************************************
+
+ Energy components for box 1     kJ/mol-Extensive
+ ---------------------------------------------------------------------
+ Total system energy                     -373.426
+ Intra molecular energy                     0.000
+   Bond energy                              0.000
+   Bond angle energy                        0.000
+   Dihedral angle energy                    0.000
+   Improper angle energy                    0.000
+   Intra molecule vdw                       0.000
+   Intra molecule q                         0.000
+ Inter molecular energy                  -373.426
+   Inter molecule vdw                       0.000
+   Long range correction                 -544.550
+   Inter molecule q                      7611.621
+   Reciprocal ewald                       222.943
+   Self ewald                           -7663.440
+ ---------------------------------------------------------------------
+   Number of reciprocal vectors              5001
+
+********************************************************************************
+
+Run simulation
+********************************************************************************
+                Step       Move   Mol Spc Box  Success  MaxWidth
+                 183     delete         2   1        F             no mols
+                 370  translate         2   1  0.35000   1.40000
+                 411     delete         2   1        F             no mols
+                 424     rotate         2   1  0.94000   3.14159
+                 749  translate         2   1  0.43000   1.20400
+                 851     rotate         2   1  0.77000   3.14159
+                1126  translate         2   1  0.47000   1.13176
+                1270     rotate         2   1  0.89000   3.14159
+                1567  translate         2   1  0.55000   1.24494
+                1637     rotate         2   1  0.86000   3.14159
+                1935  translate         2   1  0.35000   0.87146
+                2007     rotate         2   1  0.91000   3.14159
+                2314  translate         2   1  0.53000   0.92374
+                2418     rotate         2   1  0.89000   3.14159
+                2678  translate         2   1  0.65000   1.20087
+                2842     rotate         2   1  0.93000   3.14159
+                3125  translate         2   1  0.43000   1.03274
+                3223     rotate         2   1  0.89000   3.14159
+                3405     delete         2   1        F             no mols
+                3407     delete         2   1        F             no mols
+                3414     delete         2   1        F             no mols
+                3452     delete         2   1        F             no mols
+                3454     delete         2   1        F             no mols
+                3463     delete         2   1        F             no mols
+                3464     delete         2   1        F             no mols
+                3470     delete         2   1        F             no mols
+                3579  translate         2   1  0.52000   1.07405
+                3620     rotate         2   1  0.88000   3.14159
+                4025     rotate         2   1  0.91000   3.14159
+                4035  translate         2   1  0.38000   0.81628
+                4394     rotate         2   1  0.91000   3.14159
+                4474  translate         2   1  0.53000   0.86526
+                4803     rotate         2   1  0.84000   3.14159
+                4811  translate         2   1  0.59000   1.02100
+                5181     rotate         2   1  0.84000   3.14159
+                5221  translate         2   1  0.54000   1.10268
+                5590     rotate         2   1  0.93000   3.14159
+                5643  translate         2   1  0.45000   0.99242
+                6000     rotate         2   1  0.93000   3.14159
+                6003  translate         2   1  0.53000   1.05196
+                6406     rotate         2   1  0.89000   3.14159
+                6409  translate         2   1  0.46000   0.96780
+                6641     delete         2   1        F             no mols
+                6643     delete         2   1        F             no mols
+                6644     delete         2   1        F             no mols
+                6645     delete         2   1        F             no mols
+                6651     delete         2   1        F             no mols
+                6794  translate         2   1  0.46000   0.89038
+                6821     rotate         2   1  0.88000   3.14159
+                7246     rotate         2   1  0.92000   3.14159
+                7260  translate         2   1  0.66000   1.17530
+                7651     rotate         2   1  0.95000   3.14159
+                7659  translate         2   1  0.28000   0.65817
+                8031     rotate         2   1  0.87000   3.14159
+                8091  translate         2   1  0.64000   0.84246
+                8397     delete         2   1        F             no mols
+                8398     delete         2   1        F             no mols
+                8400     delete         2   1        F             no mols
+                8451  translate         2   1  0.46000   0.77506
+                8460     rotate         2   1  0.93000   3.14159
+                8812     rotate         2   1  0.90000   3.14159
+                8838  translate         2   1  0.50000   0.77506
+                8920     delete         2   1        F             no mols
+                8922     delete         2   1        F             no mols
+                8951     delete         2   1        F             no mols
+                8954     delete         2   1        F             no mols
+                8955     delete         2   1        F             no mols
+                8985     delete         2   1        F             no mols
+                8986     delete         2   1        F             no mols
+                9170     delete         2   1        F             no mols
+                9171     delete         2   1        F             no mols
+                9172     delete         2   1        F             no mols
+                9183     delete         2   1        F             no mols
+                9194     delete         2   1        F             no mols
+                9195     delete         2   1        F             no mols
+                9209  translate         2   1  0.62000   0.96107
+                9275     rotate         2   1  0.90000   3.14159
+                9592  translate         2   1  0.59000   1.13407
+                9648     rotate         2   1  0.89000   3.14159
+               10007  translate         2   1  0.54000   1.22479
+               10054     rotate         2   1  0.90000   3.14159
+               10371  translate         2   1  0.41000   1.00433
+               10407     rotate         2   1  0.89000   3.14159
+               10731     rotate         2   1  0.86000   3.14159
+               10864  translate         2   1  0.44000   0.88381
+               11156     rotate         2   1  0.90000   3.14159
+               11163     delete         2   1        F             no mols
+               11165     delete         2   1        F             no mols
+               11260  translate         2   1  0.57000   1.00754
+               11602     rotate         2   1  0.83000   3.14159
+               11677  translate         2   1  0.51000   1.02769
+               12011     rotate         2   1  0.84000   3.14159
+               12087  translate         2   1  0.53000   1.08936
+               12374     delete         2   1        F             no mols
+               12454     rotate         2   1  0.90000   3.14159
+               12463  translate         2   1  0.60000   1.30723
+               12855  translate         2   1  0.30000   0.78434
+               12867     rotate         2   1  0.88000   3.14159
+               13012     delete         2   1        F             no mols
+               13213  translate         2   1  0.56000   0.87846
+               13333     rotate         2   1  0.86000   3.14159
+               13526     delete         2   1        F             no mols
+               13548  translate         2   1  0.63000   1.10686
+               13745     rotate         2   1  0.91000   3.14159
+               13917  translate         2   1  0.50000   1.10686
+               14158     rotate         2   1  0.90000   3.14159
+               14328  translate         2   1  0.54000   1.19540
+               14559     rotate         2   1  0.89000   3.14159
+               14750  translate         2   1  0.44000   1.05196
+               14933     rotate         2   1  0.88000   3.14159
+               15130  translate         2   1  0.45000   0.94676
+               15378     rotate         2   1  0.89000   3.14159
+               15593  translate         2   1  0.60000   1.13611
+               15814     rotate         2   1  0.87000   3.14159
+               15938     delete         2   1        F             no mols
+               15940     delete         2   1        F             no mols
+               15941     delete         2   1        F             no mols
+               15943     delete         2   1        F             no mols
+               15944     delete         2   1        F             no mols
+               15950     delete         2   1        F             no mols
+               15975  translate         2   1  0.46000   1.04522
+               16277     rotate         2   1  0.90000   3.14159
+               16346  translate         2   1  0.47000   0.98251
+               16730     rotate         2   1  0.93000   3.14159
+               16753  translate         2   1  0.51000   1.00216
+               17084     rotate         2   1  0.88000   3.14159
+               17202  translate         2   1  0.50000   1.00216
+               17491     rotate         2   1  0.89000   3.14159
+               17610  translate         2   1  0.49000   0.98212
+               17872     delete         2   1        F             no mols
+               17874     delete         2   1        F             no mols
+               17875     delete         2   1        F             no mols
+               17878     delete         2   1        F             no mols
+               17879     delete         2   1        F             no mols
+               17881     delete         2   1        F             no mols
+               17916     rotate         2   1  0.90000   3.14159
+               17933     delete         2   1        F             no mols
+               18093  translate         2   1  0.51000   1.00176
+               18248     rotate         2   1  0.87000   3.14159
+               18504  translate         2   1  0.49000   0.98172
+               18591     delete         2   1        F             no mols
+               18617     rotate         2   1  0.87000   3.14159
+               18901  translate         2   1  0.51000   1.00136
+               18944     rotate         2   1  0.92000   3.14159
+               19097     delete         2   1        F             no mols
+               19098     delete         2   1        F             no mols
+               19100     delete         2   1        F             no mols
+               19108     delete         2   1        F             no mols
+               19302  translate         2   1  0.46000   0.92125
+               19369     rotate         2   1  0.81000   3.14159
+               19735     rotate         2   1  0.95000   3.14159
+               19747  translate         2   1  0.55000   1.01337
+               20124     rotate         2   1  0.91000   3.14159
+               20146  translate         2   1  0.54000   1.09444
+               20478     rotate         2   1  0.90000   3.14159
+               20568  translate         2   1  0.44000   0.96311
+               20905     rotate         2   1  0.88000   3.14159
+               20997  translate         2   1  0.59000   1.13647
+               21255     rotate         2   1  0.94000   3.14159
+               21395  translate         2   1  0.47000   1.06828
+               21581     rotate         2   1  0.96000   3.14159
+               21721     delete         2   1        F             no mols
+               21728     delete         2   1        F             no mols
+               21816  translate         2   1  0.55000   1.17511
+               21963     rotate         2   1  0.84000   3.14159
+               22230  translate         2   1  0.42000   0.98709
+               22305     rotate         2   1  0.91000   3.14159
+               22642  translate         2   1  0.56000   1.10554
+               22745     rotate         2   1  0.92000   3.14159
+               23041  translate         2   1  0.51000   1.12766
+               23067     delete         2   1        F             no mols
+               23068     delete         2   1        F             no mols
+               23151     rotate         2   1  0.93000   3.14159
+               23475  translate         2   1  0.49000   1.10510
+               23575     rotate         2   1  0.88000   3.14159
+               23741     delete         2   1        F             no mols
+               23742     delete         2   1        F             no mols
+               23766     delete         2   1        F             no mols
+               23767     delete         2   1        F             no mols
+               23768     delete         2   1        F             no mols
+               23783     delete         2   1        F             no mols
+               23821  translate         2   1  0.47000   1.03880
+               23917     delete         2   1        F             no mols
+               23922     delete         2   1        F             no mols
+               23926     delete         2   1        F             no mols
+               23927     delete         2   1        F             no mols
+               24073     rotate         2   1  0.87000   3.14159
+               24253  translate         2   1  0.46000   0.95569
+               24492     rotate         2   1  0.96000   3.14159
+               24612  translate         2   1  0.57000   1.08949
+               24917     rotate         2   1  0.93000   3.14159
+               24973  translate         2   1  0.54000   1.17665
+               25319     rotate         2   1  0.84000   3.14159
+               25360  translate         2   1  0.38000   0.89425
+               25696     rotate         2   1  0.83000   3.14159
+               25826  translate         2   1  0.58000   1.03733
+               26115     rotate         2   1  0.87000   3.14159
+               26222  translate         2   1  0.39000   0.80912
+               26500     rotate         2   1  0.87000   3.14159
+               26578  translate         2   1  0.56000   0.90621
+               26923     rotate         2   1  0.94000   3.14159
+               26961  translate         2   1  0.57000   1.03308
+               27345     rotate         2   1  0.92000   3.14159
+               27384  translate         2   1  0.46000   0.95044
+               27743     rotate         2   1  0.83000   3.14159
+               27768  translate         2   1  0.43000   0.81738
+               27860     delete         2   1        F             no mols
+               27866     delete         2   1        F             no mols
+               27867     delete         2   1        F             no mols
+               27880     delete         2   1        F             no mols
+               28151  translate         2   1  0.57000   0.93181
+               28202     rotate         2   1  0.92000   3.14159
+               28586  translate         2   1  0.50000   0.93181
+               28605     rotate         2   1  0.88000   3.14159
+               28975     rotate         2   1  0.82000   3.14159
+               29032  translate         2   1  0.49000   0.91317
+               29381     rotate         2   1  0.85000   3.14159
+               29435  translate         2   1  0.38000   0.69401
+               29518     delete         2   1        F             no mols
+               29519     delete         2   1        F             no mols
+               29538     delete         2   1        F             no mols
+               29844     rotate         2   1  0.95000   3.14159
+               29846  translate         2   1  0.60000   0.83281
+               30178  translate         2   1  0.56000   0.93275
+               30285     rotate         2   1  0.87000   3.14159
+               30332     delete         2   1        F             no mols
+               30350     delete         2   1        F             no mols
+               30646  translate         2   1  0.58000   1.08199
+               30689     rotate         2   1  0.90000   3.14159
+               30851     delete         2   1        F             no mols
+               30854     delete         2   1        F             no mols
+               30857     delete         2   1        F             no mols
+               30858     delete         2   1        F             no mols
+               30859     delete         2   1        F             no mols
+               30861     delete         2   1        F             no mols
+               30865     delete         2   1        F             no mols
+               30867     delete         2   1        F             no mols
+               30881     delete         2   1        F             no mols
+               30882     delete         2   1        F             no mols
+               31105  translate         2   1  0.52000   1.12527
+               31113     rotate         2   1  0.87000   3.14159
+               31344     delete         2   1        F             no mols
+               31349     delete         2   1        F             no mols
+               31351     delete         2   1        F             no mols
+               31364     delete         2   1        F             no mols
+               31491  translate         2   1  0.38000   0.85521
+               31528     rotate         2   1  0.91000   3.14159
+               31890  translate         2   1  0.62000   1.06046
+               31894     rotate         2   1  0.87000   3.14159
+               32079     delete         2   1        F             no mols
+               32080     delete         2   1        F             no mols
+               32316     rotate         2   1  0.91000   3.14159
+               32384  translate         2   1  0.40000   0.84836
+               32743     rotate         2   1  0.90000   3.14159
+               32823  translate         2   1  0.54000   0.91623
+               33053     delete         2   1        F             no mols
+               33174     rotate         2   1  0.84000   3.14159
+               33248  translate         2   1  0.58000   1.06283
+               33574     rotate         2   1  0.91000   3.14159
+               33673  translate         2   1  0.51000   1.08409
+               33974     rotate         2   1  0.91000   3.14159
+               34114  translate         2   1  0.55000   1.19250
+               34134     delete         2   1        F             no mols
+               34135     delete         2   1        F             no mols
+               34453     rotate         2   1  0.87000   3.14159
+               34514  translate         2   1  0.43000   1.02555
+               34599     delete         2   1        F             no mols
+               34601     delete         2   1        F             no mols
+               34684     delete         2   1        F             no mols
+               34857     rotate         2   1  0.93000   3.14159
+               34928  translate         2   1  0.46000   0.94350
+               35333  translate         2   1  0.43000   0.81141
+               35337     rotate         2   1  0.90000   3.14159
+               35685  translate         2   1  0.63000   1.02238
+               35769     rotate         2   1  0.93000   3.14159
+               36019  translate         2   1  0.52000   1.06328
+               36155     rotate         2   1  0.90000   3.14159
+               36387  translate         2   1  0.38000   0.80809
+               36514     rotate         2   1  0.85000   3.14159
+               36708     delete         2   1        F             no mols
+               36709     delete         2   1        F             no mols
+               36759  translate         2   1  0.55000   0.88890
+               36905     rotate         2   1  0.96000   3.14159
+               37142  translate         2   1  0.58000   1.03112
+               37306     rotate         2   1  0.82000   3.14159
+               37565  translate         2   1  0.51000   1.05174
+               37633     delete         2   1        F             no mols
+               37635     delete         2   1        F             no mols
+               37784     rotate         2   1  0.89000   3.14159
+               37976  translate         2   1  0.43000   0.90450
+               38203     rotate         2   1  0.86000   3.14159
+               38390  translate         2   1  0.51000   0.92259
+               38591     rotate         2   1  0.89000   3.14159
+               38764  translate         2   1  0.50000   0.92259
+               39022     rotate         2   1  0.90000   3.14159
+               39163  translate         2   1  0.47000   0.86723
+               39427     rotate         2   1  0.85000   3.14159
+               39554  translate         2   1  0.52000   0.90192
+               39742     delete         2   1        F             no mols
+               39849     rotate         2   1  0.89000   3.14159
+               40003  translate         2   1  0.58000   1.04623
+               40008     delete         2   1        F             no mols
+               40009     delete         2   1        F             no mols
+               40010     delete         2   1        F             no mols
+               40015     delete         2   1        F             no mols
+               40017     delete         2   1        F             no mols
+               40250     rotate         2   1  0.92000   3.14159
+               40348     delete         2   1        F             no mols
+               40407  translate         2   1  0.58000   1.21363
+               40623     rotate         2   1  0.89000   3.14159
+               40824  translate         2   1  0.44000   1.06799
+               41047     rotate         2   1  0.91000   3.14159
+               41212  translate         2   1  0.52000   1.11071
+               41384     rotate         2   1  0.92000   3.14159
+               41613  translate         2   1  0.42000   0.93300
+               41791     rotate         2   1  0.85000   3.14159
+               42000  translate         2   1  0.42000   0.78372
+               42195     rotate         2   1  0.95000   3.14159
+               42447  translate         2   1  0.58000   0.90911
+               42575     rotate         2   1  0.87000   3.14159
+               42838  translate         2   1  0.53000   0.96366
+               42930     rotate         2   1  0.91000   3.14159
+               43072     delete         2   1        F             no mols
+               43232  translate         2   1  0.63000   1.21421
+               43338     rotate         2   1  0.96000   3.14159
+               43635  translate         2   1  0.38000   0.92280
+               43674     rotate         2   1  0.88000   3.14159
+               44006  translate         2   1  0.57000   1.05199
+               44114     rotate         2   1  0.88000   3.14159
+               44390  translate         2   1  0.52000   1.09407
+               44546     rotate         2   1  0.93000   3.14159
+               44816  translate         2   1  0.61000   1.33477
+               44898     rotate         2   1  0.95000   3.14159
+               44902     delete         2   1        F             no mols
+               44903     delete         2   1        F             no mols
+               45222  translate         2   1  0.41000   1.09451
+               45268     rotate         2   1  0.92000   3.14159
+               45604  translate         2   1  0.59000   1.29152
+               45705     rotate         2   1  0.90000   3.14159
+               45751     delete         2   1        F             no mols
+               45980     delete         2   1        F             no mols
+               46002     delete         2   1        F             no mols
+               46019     delete         2   1        F             no mols
+               46024  translate         2   1  0.48000   1.23986
+               46124     rotate         2   1  0.91000   3.14159
+               46473  translate         2   1  0.56000   1.38865
+               46495     rotate         2   1  0.84000   3.14159
+               46826  translate         2   1  0.34000   0.94428
+               46908     rotate         2   1  0.91000   3.14159
+               47261  translate         2   1  0.53000   1.00094
+               47333     rotate         2   1  0.87000   3.14159
+               47575     delete         2   1        F             no mols
+               47604  translate         2   1  0.55000   1.10103
+               47760     rotate         2   1  0.87000   3.14159
+               48023  translate         2   1  0.43000   0.94689
+               48106     rotate         2   1  0.87000   3.14159
+               48385  translate         2   1  0.60000   1.13626
+               48475     delete         2   1        F             no mols
+               48478     delete         2   1        F             no mols
+               48522     rotate         2   1  0.88000   3.14159
+               48791  translate         2   1  0.49000   1.11354
+               48861     rotate         2   1  0.85000   3.14159
+               49197  translate         2   1  0.52000   1.15808
+               49305     rotate         2   1  0.91000   3.14159
+               49631  translate         2   1  0.48000   1.11176
+               49706     rotate         2   1  0.90000   3.14159
+               50035  translate         2   1  0.49000   1.08952
+               50104     rotate         2   1  0.96000   3.14159
+               50472  translate         2   1  0.51000   1.11131
+               50519     delete         2   1        F             no mols
+               50540     rotate         2   1  0.92000   3.14159
+               50871  translate         2   1  0.43000   0.95573
+               50937     rotate         2   1  0.84000   3.14159
+               51272  translate         2   1  0.45000   0.86016
+               51295     rotate         2   1  0.81000   3.14159
+               51700  translate         2   1  0.51000   0.87736
+               51717     rotate         2   1  0.85000   3.14159
+               52063  translate         2   1  0.63000   1.10547
+               52112     rotate         2   1  0.85000   3.14159
+               52447  translate         2   1  0.54000   1.19391
+               52508     rotate         2   1  0.90000   3.14159
+               52814  translate         2   1  0.40000   0.95513
+               52974     rotate         2   1  0.87000   3.14159
+               53192  translate         2   1  0.44000   0.84051
+               53350     rotate         2   1  0.91000   3.14159
+               53612  translate         2   1  0.52000   0.87413
+               53750     rotate         2   1  0.90000   3.14159
+               53819     delete         2   1        F             no mols
+               53822     delete         2   1        F             no mols
+               53824     delete         2   1        F             no mols
+               53825     delete         2   1        F             no mols
+               54028  translate         2   1  0.54000   0.94406
+               54189     rotate         2   1  0.90000   3.14159
+               54419  translate         2   1  0.62000   1.17064
+               54570     rotate         2   1  0.90000   3.14159
+               54831  translate         2   1  0.51000   1.19405
+               55006     rotate         2   1  0.90000   3.14159
+               55162  translate         2   1  0.51000   1.21793
+               55437     rotate         2   1  0.89000   3.14159
+               55504  translate         2   1  0.35000   0.85255
+               55724     delete         2   1        F             no mols
+               55889     rotate         2   1  0.89000   3.14159
+               55905  translate         2   1  0.57000   0.97191
+               56232     rotate         2   1  0.92000   3.14159
+               56356  translate         2   1  0.54000   1.04966
+               56611     rotate         2   1  0.88000   3.14159
+               56686     delete         2   1        F             no mols
+               56687     delete         2   1        F             no mols
+               56762  translate         2   1  0.47000   0.98668
+               57003     rotate         2   1  0.83000   3.14159
+               57165  translate         2   1  0.51000   1.00642
+               57391     rotate         2   1  0.95000   3.14159
+               57561  translate         2   1  0.50000   1.00642
+               57747     rotate         2   1  0.90000   3.14159
+               57999  translate         2   1  0.64000   1.28821
+               58012     delete         2   1        F             no mols
+               58013     delete         2   1        F             no mols
+               58015     delete         2   1        F             no mols
+               58016     delete         2   1        F             no mols
+               58019     delete         2   1        F             no mols
+               58126     rotate         2   1  0.90000   3.14159
+               58423  translate         2   1  0.43000   1.10786
+               58453     delete         2   1        F             no mols
+               58456     delete         2   1        F             no mols
+               58457     delete         2   1        F             no mols
+               58574     rotate         2   1  0.86000   3.14159
+               58798  translate         2   1  0.49000   1.08571
+               58966     rotate         2   1  0.82000   3.14159
+               59184  translate         2   1  0.48000   1.04228
+               59413     rotate         2   1  0.87000   3.14159
+               59614  translate         2   1  0.37000   0.77129
+               59827     rotate         2   1  0.93000   3.14159
+               60042  translate         2   1  0.65000   1.00267
+               60233     rotate         2   1  0.92000   3.14159
+               60519  translate         2   1  0.47000   0.94251
+               60597     rotate         2   1  0.89000   3.14159
+               60889  translate         2   1  0.48000   0.90481
+               61023     rotate         2   1  0.90000   3.14159
+               61348  translate         2   1  0.58000   1.04958
+               61434     rotate         2   1  0.90000   3.14159
+               61727  translate         2   1  0.48000   1.00760
+               61824     rotate         2   1  0.93000   3.14159
+               62082     delete         2   1        F             no mols
+               62085     delete         2   1        F             no mols
+               62099     delete         2   1        F             no mols
+               62102     delete         2   1        F             no mols
+               62103     delete         2   1        F             no mols
+               62105     delete         2   1        F             no mols
+               62107     delete         2   1        F             no mols
+               62128     delete         2   1        F             no mols
+               62130     delete         2   1        F             no mols
+               62131     delete         2   1        F             no mols
+               62134     delete         2   1        F             no mols
+               62183  translate         2   1  0.50000   1.00760
+               62281     rotate         2   1  0.91000   3.14159
+               62558  translate         2   1  0.56000   1.12851
+               62588     delete         2   1        F             no mols
+               62625     rotate         2   1  0.92000   3.14159
+               62957  translate         2   1  0.41000   0.92538
+               63016     rotate         2   1  0.92000   3.14159
+               63374     rotate         2   1  0.88000   3.14159
+               63433  translate         2   1  0.57000   1.05493
+               63546     delete         2   1        F             no mols
+               63548     delete         2   1        F             no mols
+               63560     delete         2   1        F             no mols
+               63565     delete         2   1        F             no mols
+               63571     delete         2   1        F             no mols
+               63815     rotate         2   1  0.88000   3.14159
+               63848  translate         2   1  0.46000   0.97054
+               64231     rotate         2   1  0.89000   3.14159
+               64237  translate         2   1  0.52000   1.00936
+               64304     delete         2   1        F             no mols
+               64653  translate         2   1  0.49000   0.98917
+               64659     rotate         2   1  0.94000   3.14159
+               65048  translate         2   1  0.47000   0.92982
+               65050     rotate         2   1  0.88000   3.14159
+               65088     delete         2   1        F             no mols
+               65409     rotate         2   1  0.89000   3.14159
+               65483  translate         2   1  0.52000   0.96701
+               65774     rotate         2   1  0.88000   3.14159
+               65893  translate         2   1  0.52000   1.00569
+               65989     delete         2   1        F             no mols
+               65991     delete         2   1        F             no mols
+               66170     delete         2   1        F             no mols
+               66173     delete         2   1        F             no mols
+               66174     delete         2   1        F             no mols
+               66185     rotate         2   1  0.85000   3.14159
+               66296  translate         2   1  0.41000   0.82467
+               66387     delete         2   1        F             no mols
+               66632     rotate         2   1  0.91000   3.14159
+               66750  translate         2   1  0.61000   1.00609
+               66993     rotate         2   1  0.87000   3.14159
+               67023     delete         2   1        F             no mols
+               67026     delete         2   1        F             no mols
+               67027     delete         2   1        F             no mols
+               67038     delete         2   1        F             no mols
+               67152  translate         2   1  0.62000   1.24756
+               67419     rotate         2   1  0.86000   3.14159
+               67492     delete         2   1        F             no mols
+               67494     delete         2   1        F             no mols
+               67620  translate         2   1  0.43000   1.07290
+               67733     delete         2   1        F             no mols
+               67772     rotate         2   1  0.85000   3.14159
+               68017  translate         2   1  0.38000   0.81540
+               68225     rotate         2   1  0.86000   3.14159
+               68384  translate         2   1  0.69000   1.12526
+               68630     rotate         2   1  0.89000   3.14159
+               68816  translate         2   1  0.48000   1.08025
+               68988     rotate         2   1  0.82000   3.14159
+               69260  translate         2   1  0.55000   1.18827
+               69367     rotate         2   1  0.86000   3.14159
+               69626  translate         2   1  0.55000   1.30710
+               69791     rotate         2   1  0.90000   3.14159
+               70018  translate         2   1  0.42000   1.09796
+               70217     rotate         2   1  0.88000   3.14159
+               70414  translate         2   1  0.54000   1.18580
+               70592     rotate         2   1  0.86000   3.14159
+               70792  translate         2   1  0.49000   1.16208
+               71010     rotate         2   1  0.81000   3.14159
+               71235  translate         2   1  0.44000   1.02263
+               71309     delete         2   1        F             no mols
+               71364     delete         2   1        F             no mols
+               71440     rotate         2   1  0.88000   3.14159
+               71602  translate         2   1  0.44000   0.89992
+               71847     rotate         2   1  0.82000   3.14159
+               71996  translate         2   1  0.50000   0.89992
+               72123     delete         2   1        F             no mols
+               72125     delete         2   1        F             no mols
+               72126     delete         2   1        F             no mols
+               72127     delete         2   1        F             no mols
+               72130     delete         2   1        F             no mols
+               72131     delete         2   1        F             no mols
+               72136     delete         2   1        F             no mols
+               72291     rotate         2   1  0.86000   3.14159
+               72429  translate         2   1  0.58000   1.04390
+               72549     delete         2   1        F             no mols
+               72685     rotate         2   1  0.93000   3.14159
+               72859  translate         2   1  0.51000   1.06478
+               73069     rotate         2   1  0.90000   3.14159
+               73264  translate         2   1  0.59000   1.25644
+               73474     rotate         2   1  0.89000   3.14159
+               73625  translate         2   1  0.43000   1.08054
+               73910     rotate         2   1  0.91000   3.14159
+               73953     delete         2   1        F             no mols
+               73954     delete         2   1        F             no mols
+               73979     delete         2   1        F             no mols
+               73996     delete         2   1        F             no mols
+               74001     delete         2   1        F             no mols
+               74003     delete         2   1        F             no mols
+               74057  translate         2   1  0.53000   1.14537
+               74346     rotate         2   1  0.93000   3.14159
+               74438  translate         2   1  0.48000   1.09956
+               74654     rotate         2   1  0.79000   3.14159
+               74877  translate         2   1  0.44000   0.96761
+               75021     rotate         2   1  0.91000   3.14159
+               75246     delete         2   1        F             no mols
+               75314  translate         2   1  0.55000   1.06437
+               75340     delete         2   1        F             no mols
+               75441     rotate         2   1  0.87000   3.14159
+               75705  translate         2   1  0.50000   1.06437
+               75841     rotate         2   1  0.92000   3.14159
+               75981     delete         2   1        F             no mols
+               75987     delete         2   1        F             no mols
+               76141  translate         2   1  0.54000   1.14952
+               76272     rotate         2   1  0.94000   3.14159
+               76303     delete         2   1        F             no mols
+               76331     delete         2   1        F             no mols
+               76341     delete         2   1        F             no mols
+               76343     delete         2   1        F             no mols
+               76351     delete         2   1        F             no mols
+               76374     delete         2   1        F             no mols
+               76620  translate         2   1  0.49000   1.12653
+               76687     rotate         2   1  0.78000   3.14159
+               77094     rotate         2   1  0.94000   3.14159
+               77109  translate         2   1  0.56000   1.26172
+               77436  translate         2   1  0.38000   0.95890
+               77497     rotate         2   1  0.89000   3.14159
+               77832     delete         2   1        F             no mols
+               77834     delete         2   1        F             no mols
+               77865     delete         2   1        F             no mols
+               77887  translate         2   1  0.51000   0.97808
+               77936     rotate         2   1  0.90000   3.14159
+               78193     delete         2   1        F             no mols
+               78196     delete         2   1        F             no mols
+               78270  translate         2   1  0.53000   1.03677
+               78419     rotate         2   1  0.89000   3.14159
+               78541     delete         2   1        F             no mols
+               78668  translate         2   1  0.51000   1.05750
+               78872     rotate         2   1  0.92000   3.14159
+               79057  translate         2   1  0.46000   0.97290
+               79321     rotate         2   1  0.91000   3.14159
+               79432  translate         2   1  0.59000   1.14803
+               79686     rotate         2   1  0.91000   3.14159
+               79818  translate         2   1  0.45000   1.03322
+               79836     delete         2   1        F             no mols
+               79837     delete         2   1        F             no mols
+               79841     delete         2   1        F             no mols
+               79844     delete         2   1        F             no mols
+               80189     rotate         2   1  0.88000   3.14159
+               80221  translate         2   1  0.58000   1.19854
+               80566     rotate         2   1  0.87000   3.14159
+               80607  translate         2   1  0.47000   1.12663
+               80992     rotate         2   1  0.89000   3.14159
+               81010  translate         2   1  0.50000   1.12663
+               81365     rotate         2   1  0.91000   3.14159
+               81422  translate         2   1  0.54000   1.21676
+               81702     delete         2   1        F             no mols
+               81793     rotate         2   1  0.87000   3.14159
+               81833     delete         2   1        F             no mols
+               81835     delete         2   1        F             no mols
+               81864  translate         2   1  0.38000   0.92473
+               82254     rotate         2   1  0.90000   3.14159
+               82257  translate         2   1  0.55000   1.01721
+               82639     rotate         2   1  0.87000   3.14159
+               82658  translate         2   1  0.55000   1.11893
+               83050     rotate         2   1  0.84000   3.14159
+               83054  translate         2   1  0.51000   1.14131
+               83430     rotate         2   1  0.94000   3.14159
+               83444  translate         2   1  0.50000   1.14131
+               83808     rotate         2   1  0.82000   3.14159
+               83886  translate         2   1  0.42000   0.95870
+               84258     rotate         2   1  0.87000   3.14159
+               84290  translate         2   1  0.50000   0.95870
+               84685     rotate         2   1  0.87000   3.14159
+               84696  translate         2   1  0.60000   1.15044
+               85042     rotate         2   1  0.89000   3.14159
+               85091  translate         2   1  0.43000   0.98938
+               85430     rotate         2   1  0.85000   3.14159
+               85442  translate         2   1  0.51000   1.00916
+               85728     delete         2   1        F             no mols
+               85733     delete         2   1        F             no mols
+               85736     delete         2   1        F             no mols
+               85878  translate         2   1  0.48000   0.96880
+               85912     rotate         2   1  0.90000   3.14159
+               86197     delete         2   1        F             no mols
+               86201     delete         2   1        F             no mols
+               86206     delete         2   1        F             no mols
+               86207     delete         2   1        F             no mols
+               86253  translate         2   1  0.52000   1.00755
+               86318     rotate         2   1  0.90000   3.14159
+               86407     delete         2   1        F             no mols
+               86410     delete         2   1        F             no mols
+               86412     delete         2   1        F             no mols
+               86416     delete         2   1        F             no mols
+               86677  translate         2   1  0.45000   0.90679
+               86706     rotate         2   1  0.90000   3.14159
+               87056  translate         2   1  0.63000   1.14256
+               87104     rotate         2   1  0.88000   3.14159
+               87447     rotate         2   1  0.85000   3.14159
+               87453  translate         2   1  0.45000   1.02831
+               87639     delete         2   1        F             no mols
+               87640     delete         2   1        F             no mols
+               87641     delete         2   1        F             no mols
+               87643     delete         2   1        F             no mols
+               87649     delete         2   1        F             no mols
+               87652     delete         2   1        F             no mols
+               87653     delete         2   1        F             no mols
+               87655     delete         2   1        F             no mols
+               87657     delete         2   1        F             no mols
+               87660     delete         2   1        F             no mols
+               87661     delete         2   1        F             no mols
+               87662     delete         2   1        F             no mols
+               87666     delete         2   1        F             no mols
+               87828     rotate         2   1  0.87000   3.14159
+               87962  translate         2   1  0.59000   1.21340
+               88119     delete         2   1        F             no mols
+               88121     delete         2   1        F             no mols
+               88124     delete         2   1        F             no mols
+               88213     rotate         2   1  0.87000   3.14159
+               88372     delete         2   1        F             no mols
+               88379  translate         2   1  0.51000   1.23767
+               88435     delete         2   1        F             no mols
+               88436     delete         2   1        F             no mols
+               88438     delete         2   1        F             no mols
+               88440     delete         2   1        F             no mols
+               88441     delete         2   1        F             no mols
+               88442     delete         2   1        F             no mols
+               88448     delete         2   1        F             no mols
+               88497     delete         2   1        F             no mols
+               88526     delete         2   1        F             no mols
+               88529     delete         2   1        F             no mols
+               88653     rotate         2   1  0.93000   3.14159
+               88839  translate         2   1  0.47000   1.16341
+               88933     delete         2   1        F             no mols
+               88943     delete         2   1        F             no mols
+               88945     delete         2   1        F             no mols
+               88947     delete         2   1        F             no mols
+               88950     delete         2   1        F             no mols
+               89042     delete         2   1        F             no mols
+               89045     delete         2   1        F             no mols
+               89049     delete         2   1        F             no mols
+               89051     delete         2   1        F             no mols
+               89073     delete         2   1        F             no mols
+               89074     delete         2   1        F             no mols
+               89076     delete         2   1        F             no mols
+               89077     delete         2   1        F             no mols
+               89140     rotate         2   1  0.90000   3.14159
+               89250  translate         2   1  0.53000   1.23321
+               89555     rotate         2   1  0.88000   3.14159
+               89633  translate         2   1  0.49000   1.20855
+               89950     rotate         2   1  0.85000   3.14159
+               90030  translate         2   1  0.52000   1.25689
+               90382     rotate         2   1  0.93000   3.14159
+               90443  translate         2   1  0.36000   0.90496
+               90798     rotate         2   1  0.91000   3.14159
+               90844  translate         2   1  0.52000   0.94116
+               91021     delete         2   1        F             no mols
+               91171  translate         2   1  0.52000   0.97881
+               91251     delete         2   1        F             no mols
+               91252     delete         2   1        F             no mols
+               91293     rotate         2   1  0.90000   3.14159
+               91612  translate         2   1  0.56000   1.09626
+               91615     delete         2   1        F             no mols
+               91633     rotate         2   1  0.92000   3.14159
+               91733     delete         2   1        F             no mols
+               91736     delete         2   1        F             no mols
+               91737     delete         2   1        F             no mols
+               91738     delete         2   1        F             no mols
+               91740     delete         2   1        F             no mols
+               91744     delete         2   1        F             no mols
+               91758     delete         2   1        F             no mols
+               91990     rotate         2   1  0.84000   3.14159
+               92122  translate         2   1  0.38000   0.83316
+               92359     rotate         2   1  0.86000   3.14159
+               92502  translate         2   1  0.58000   0.96646
+               92765     rotate         2   1  0.85000   3.14159
+               92852     delete         2   1        F             no mols
+               92855     delete         2   1        F             no mols
+               92961  translate         2   1  0.51000   0.98579
+               93195     rotate         2   1  0.86000   3.14159
+               93378  translate         2   1  0.51000   1.00551
+               93617     rotate         2   1  0.90000   3.14159
+               93826  translate         2   1  0.50000   1.00551
+               93997     rotate         2   1  0.89000   3.14159
+               94239  translate         2   1  0.47000   0.94518
+               94377     rotate         2   1  0.88000   3.14159
+               94580  translate         2   1  0.58000   1.09641
+               94800     rotate         2   1  0.94000   3.14159
+               94986  translate         2   1  0.44000   0.96484
+               95261     rotate         2   1  0.91000   3.14159
+               95369  translate         2   1  0.58000   1.11921
+               95639     rotate         2   1  0.92000   3.14159
+               95750  translate         2   1  0.44000   0.98491
+               96088     rotate         2   1  0.91000   3.14159
+               96139  translate         2   1  0.61000   1.20159
+               96462  translate         2   1  0.39000   0.93724
+               96524     rotate         2   1  0.88000   3.14159
+               96796  translate         2   1  0.55000   1.03096
+               96873     rotate         2   1  0.80000   3.14159
+               97233  translate         2   1  0.51000   1.05158
+               97277     rotate         2   1  0.96000   3.14159
+               97547     delete         2   1        F             no mols
+               97647  translate         2   1  0.51000   1.07261
+               97664     rotate         2   1  0.90000   3.14159
+               98030  translate         2   1  0.54000   1.15842
+               98120     rotate         2   1  0.92000   3.14159
+               98283     delete         2   1        F             no mols
+               98415  translate         2   1  0.56000   1.29743
+               98560     rotate         2   1  0.89000   3.14159
+               98792  translate         2   1  0.44000   1.14174
+               99013     rotate         2   1  0.86000   3.14159
+               99126  translate         2   1  0.43000   0.98190
+               99390     rotate         2   1  0.91000   3.14159
+               99539  translate         2   1  0.61000   1.19791
+               99741     rotate         2   1  0.86000   3.14159
+               99975  translate         2   1  0.36000   0.86250
+********************************************************************************
+
+Energy of final configuration
+********************************************************************************
+
+ Energy components for box 1     kJ/mol-Extensive       Relative_Error
+ ---------------------------------------------------------------------
+ Total system energy                     -392.335           -0.111E-13
+ Intra molecular energy                     0.000            0.000E+00
+   Bond energy                              0.000            0.000E+00
+   Bond angle energy                        0.000            0.000E+00
+   Dihedral angle energy                    0.000            0.000E+00
+   Improper angle energy                    0.000            0.000E+00
+   Intra molecule vdw                       0.000            0.000E+00
+   Intra molecule q                         0.000            0.000E+00
+ Inter molecular energy                  -392.335           -0.111E-13
+   Inter molecule vdw                     -18.525           -0.120E-13
+   Long range correction                 -544.934           -0.000E+00
+   Inter molecule q                      7611.621            0.000E+00
+   Reciprocal ewald                       222.943            0.000E+00
+   Self ewald                           -7663.440           -0.000E+00
+ ---------------------------------------------------------------------
+   Number of reciprocal vectors              5001
+
+********************************************************************************
+
+
+Writing information for box  1
+********************************************************************************
+
+   ---------------------------------------------------------
+   Writing information for species  1
+
+                Move      Trials     Success   % Success
+   ---------------------------------------------------------
+
+
+   ---------------------------------------------------------
+   Writing information for species  2
+
+                Move      Trials     Success   % Success
+           Translate       24706       12448       50.38
+              Rotate       24663       21928       88.91
+              Insert       24993       12897       51.60
+              Delete       24841       12894       51.91
+   ---------------------------------------------------------
+
+********************************************************************************
+
+ Writing information about subroutine times
+********************************************************************************
+ Translation time =            2.002966 mins.
+ Rotation time =               2.027652 mins.
+ Insertion time =             16.695284 mins.
+ Deletion time =              14.693525 mins.
+********************************************************************************
+
+********************************************************************************
+************************ Cassandra simulation complete *************************
+********************************************************************************
+
+ Program execution time
+********************************************************************************
+         0      Years
+         0     Months
+         0       Days
+         8      Hours
+        19    Minutes
+        45    Seconds
+        36         ms
+********************************************************************************

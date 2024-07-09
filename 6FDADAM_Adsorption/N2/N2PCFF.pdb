@@ -1,0 +1,6 @@
+REMARK    1 Polymer-consistent force field 2-site model for N2
+HETATM    1  N           0      0.0000  0.0000   1.0977                      N
+HETATM    2  N           0      0.0000  0.0000   0.0000                      N
+END
+CONECT    1    2
+CONECT    2    1

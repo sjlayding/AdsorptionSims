@@ -125,7 +125,7 @@ equilibration   100
 units        steps
 prop_freq    100
 coord_freq   10000
-run          100000
+run          500000
 !----------------------------
 
 
